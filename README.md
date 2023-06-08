@@ -46,7 +46,7 @@ We will create twio seprate communities one where farmers can share new advancem
 - [Figma]-Web Designing
 - [Python, TensorFlow , Numpy, Pandas , Scikit_Learn,Jupyter Notebook,VsCode , Flask , Keras ,ML , DL(CNN , ANN , Neural Networking]-Development
 - [ESP32, DHT11 ,Soil moisture sensor , DC to Dc relay , LCD Panel ,5V DC motor]-IOT
-- - [Microsoft Azure , Google Cloud]-Deployment
+- [Microsoft Azure , Google Cloud]-Deployment
 
 
 ## 🎉 Built By Team CS <a name = "acknowledgments"></a>
