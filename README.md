@@ -42,9 +42,9 @@ We will create twio seprate communities one where farmers can share new advancem
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 - [NodeJs , ReactJs]-Backend Service
+- [Python, TensorFlow , Numpy, Pandas , Scikit_Learn,Jupyter Notebook,VsCode , Flask , Keras ,ML , DL(CNN , ANN , Neural Networking]-Development
 - [HTML,CSS,JS,Bootstrap]-Frontend Service
 - [Figma]-Web Designing
-- [Python, TensorFlow , Numpy, Pandas , Scikit_Learn,Jupyter Notebook,VsCode , Flask , Keras ,ML , DL(CNN , ANN , Neural Networking]-Development
 - [ESP32, DHT11 ,Soil moisture sensor , DC to Dc relay , LCD Panel ,5V DC motor]-IOT
 - [Microsoft Azure , Google Cloud]-Deployment
 
