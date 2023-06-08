@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fixed Sidebar Template</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    * {
+      margin: 0;
+      font-family: 'Work Sans', sans-serif;
+    }
+    .container {
+      display: flex;
+    }
+
+    .sidebar {
+      color: white;
+      width: 200px;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+      background-color: #015239;
+      padding: 20px;
+      
+    }
+
+    .option{
+        padding-bottom: 20px;
+    }
+
+    .content {
+      margin-left: 200px;
+      padding: 16px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: white;
+    }
+
+    td a {
+      color: white;
+    }
+    /* .container td{
+        padding-bottom: 10px;
+    } */
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    a:hover {
+      color: #999;
+    }
+
+    section {
+      color: #015239;
+    }
+
+    .icon-text {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    #profile{
+        border-radius: 5px;
+        background-color: rgb(255,255,255,0.2);
+        padding: 10px;
+        display:flex;
+        position: absolute;
+        bottom: 50px;
+    }
+    #usericon{
+        border-radius: 100%;
+    }
+    #section1{
+        padding: 30px;
+        padding-left: 50px;
+        color: #015239;
+    }
+    h2{
+        font-weight: 500;
+    }
+
+    .drop-container {
+        position: relative;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+        margin: 40px;
+        border-radius: 10px;
+        border: 2px dashed #555;
+        color: #444;
+        cursor: pointer;
+        transition: background .2s ease-in-out, border .2s ease-in-out;
+    }
+
+    .drop-container:hover {
+        background: #eee;
+        border-color: #111;
+    }
+
+    .drop-container:hover .drop-title {
+        color: #222;
+    }
+
+    .drop-title {
+        color: #444;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        transition: color .2s ease-in-out;
+    }
+    .value{
+        border: #000;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+        padding: 10px;
+        margin-left: 20px;
+
+    }
+    .header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+ /* Adjust as needed */
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.name {
+  flex-grow: 1;
+}
+
+.name h1 {
+  margin: 0;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Adjust the spacing as needed */
+  }
+
+  tr {
+    display: table-row;
+  }
+  .custom-button {
+    width: 240px;
+    height: 45px;
+    background-color: #32563C;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+  }
+  .optimal{
+      padding-right: 150px;
+      color: white;
+      padding-left: 50px;
+  }
+  .default{
+    padding-right: 150px;
+      color: #32563C;
+      padding-left: 50px;
+
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 7.6px 174.59px 20.6px 20px;
+    gap: 11.8px;
+
+    width: 300px;
+    height: 120px;
+
+    background: rgba(40, 187, 83, 0.12);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+        <div class="header">
+            <div class="logo">
+              <img class="logoimg" src="static/img/logo.png" alt="Logo">
+            </div>
+            <div class="name">
+              <h2>CropCare</h2>
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <table>
+            <tr>
+                <td><img src="static/img/home.svg" alt=""></td>
+                <td><a href="/home">Home</a></td>
+            </tr>
+            <tr>
+                <td><img src="static/img/box.svg" alt=""></td>
+                <td><a href="/disease-prediction">Disease Prediction</a></td>
+            </tr>
+            <tr>
+                <td><img src="static/img/file-text.svg" alt=""></td>
+                <td><a href="/crop-prediction">Crop Prediction</a></td>
+            </tr>
+            <tr>
+                <td><img src="static/img/light-bulb-24px.svg" alt=""></td>
+                <td><a href="#section3">Fertilizer Suggestion</a></td>
+            </tr>
+            <tr>
+                <td><img src="static/img/shopping-cart-empty.svg" alt=""></td>
+                <td><a href="#section3">Marketplace</a></td>
+            </tr>
+            <tr>
+                <td><img src="static/img/book-open.svg" alt=""></td>
+                <td><a href="#section3">Education Forum</a></td>
+            </tr>
+           
+        </table>
+
+
+        <div id="profile">
+            <table>
+            <tr>
+                <td> <img src="static/img/avatar.svg" alt="" id="usericon"></td>
+                <td> <h4>Raju Sharma</h4></td>
+                <td><img src="static/img/more-vertical.svg" alt="" style="padding-left:10px;padding-top: 4px;"></td>
+
+            </tr>
+        </table>
+           
+    
+        </div>
+    
+    </div>
+    <div class="content">
+      <section id="section1">
+          <h2>Farm Conditions</h2><br><br>
+          <h4>Optimal Conditions</h4>
+  
+          <br>
+  
+          <table style="background-color: #28BB53; text-align: center; border-radius: 8px;">
+              <tr>
+                  <td class="optimal">Nitogen</td>
+                  <td class="optimal">Phosphorus</td>
+                  <td class="optimal">Potassium</td>
+                  <td class="optimal">pH Level</td>
+              </tr>
+          </table>
+          <br>
+          <br>
+          <table style="background-color: white; border: 2px solid #28BB53; text-align: center; border-radius: 8px;">
+              <tr>
+                  <td class="default">150-200 mg/kg</td>
+                  <td class="default">100-150 mg/kg</td>
+                  <td class="default">150-250 mg/kg</td>
+                  <td class="default">6-7</td>
+              </tr>
+          </table>
+  
+          <br>
+          <br>
+          <h4>Current Conditions</h4><br>
+          <div class="row">
+            <div class="box col-6">
+              <p >Nitrogen<p>
+              <br>
+              <h1>125</h1>
+            </div><br>
+          <div class="box col-6">
+            <p >Phosphorus<p>
+            <br>
+            <h1>80</h1>
+          </div><br>
+        </div>
+        <div class="row">
+          <div class="box col-6">
+            <p >Potassium<p>
+            <br>
+            <h1>175</h1>
+          </div><br>
+        </div><div class="box col-6">
+          <p >pH<p>
+          <br>
+          <h1>6</h1>
+        </div><br>
+      </div>
+  
+  
+  
+
+      </section>
+    </div>
+  </div>
+</body>
+</html>
+
