@@ -51,7 +51,7 @@ We will create twio seprate communities one where farmers can share new advancem
 
 ## 🎉 Built By Team CS <a name = "acknowledgments"></a>
 - Tanya Nijhawan (UI/UX)
-- Vaibhav Vilas Pawar (FULLSTACK DATASCIENCE / AI/ML)
+- Vaibhav Vilas Pawar (FULLSTACK DATA SCIENCE)
 - Aavishar Kolte (FULLSTACK WEB DEVELOPER)
 - Jayant Naidu (IOT)
 - Shrirang (Finance Managment)
