@@ -49,7 +49,7 @@ We will create twio seprate communities one where farmers can share new advancem
 - [Microsoft Azure , Google Cloud]-Deployment
 
 
-## 🎉 Built By Team CS <a name = "acknowledgments"></a>
+## 🎉 Built By Team Pixels <a name = "acknowledgments"></a>
 - Tanya Nijhawan (UI/UX)
 - Vaibhav Vilas Pawar (FULLSTACK DATA SCIENCE)
 - Aavishar Kolte (FULLSTACK WEB DEVELOPER)
