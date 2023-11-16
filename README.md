@@ -50,8 +50,8 @@ We will create twio seprate communities one where farmers can share new advancem
 
 
 ## 🎉 Built By Team Pixels <a name = "acknowledgments"></a>
-- Tanya Nijhawan (UI/UX)
 - Vaibhav Vilas Pawar (FULLSTACK DATA SCIENCE)
+- Tanya Nijhawan (UI/UX)
 - Aavishar Kolte (FULLSTACK WEB DEVELOPER)
 - Jayant Naidu (IOT)
 - Shrirang (Presenter)
